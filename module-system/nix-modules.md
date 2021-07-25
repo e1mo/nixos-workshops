@@ -527,7 +527,7 @@ with lib; {
 
 * Module implementation needs to map attributes to desired values
 
-```
+```nix
 { config, lib, ... }:
 let generateUnit = (name: cfg: /* ... */);
 in
